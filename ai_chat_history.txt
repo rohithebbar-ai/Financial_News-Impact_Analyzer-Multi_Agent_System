@@ -1,0 +1,415 @@
+ITERATION - 1
+
+✓ Prompt iterations documented in docs/prompt_iterations.json
+
+================================================================================
+FINANCIAL NEWS IMPACT ANALYZER - MULTI-AGENT SYSTEM
+================================================================================
+
+============================================================
+Analyzing: FIN-001 - Tesla crushes Q3 expectations with record profits,...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: +0.60
+  Impact: high
+  Confidence: 85.00%
+
+FundamentalAnalystAgent:
+  Sentiment: +0.60
+  Impact: high
+  Confidence: 85.00%
+
+MarketDynamicsAgent:
+  Sentiment: +0.70
+  Impact: high
+  Confidence: 85.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: strong_bullish
+  Market Impact: high
+  Recommendation: strong_buy
+  Confidence: 84.80%
+  Consensus Score: 69.90%
+
+  ⚠️  Conflicts Detected:
+    - Agents disagree on impact timing: SentimentAnalystAgent=immediate, FundamentalAnalystAgent=medium_term, MarketDynamicsAgent=short_term
+
+  Executive Summary:
+    Overall strong_bullish sentiment with high expected impact. Recommendation: Strong Buy. However, 1 areas of disagreement suggest caution. Primary concern: timing disagreement.
+
+============================================================
+Analyzing: FIN-002 - Small biotech CureGen soars on FDA approval, analy...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: +0.50
+  Impact: high
+  Confidence: 85.00%
+
+FundamentalAnalystAgent:
+  Sentiment: -0.50
+  Impact: high
+  Confidence: 85.00%
+
+MarketDynamicsAgent:
+  Sentiment: +0.50
+  Impact: high
+  Confidence: 70.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: neutral
+  Market Impact: high
+  Recommendation: hold
+  Confidence: 62.20%
+  Consensus Score: 65.60%
+
+  Executive Summary:
+    Overall neutral sentiment with high expected impact. Recommendation: Hold.
+
+============================================================
+Analyzing: FIN-003 - Amazon announces 'transformational' AI venture, bu...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: -0.60
+  Impact: very_high
+  Confidence: 90.00%
+
+FundamentalAnalystAgent:
+  Sentiment: -0.20
+  Impact: high
+  Confidence: 80.00%
+
+MarketDynamicsAgent:
+  Sentiment: -0.20
+  Impact: high
+  Confidence: 80.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: bearish
+  Market Impact: high
+  Recommendation: sell
+  Confidence: 80.40%
+  Consensus Score: 58.20%
+
+  ⚠️  Conflicts Detected:
+    - Agents disagree on impact timing: SentimentAnalystAgent=medium_term, FundamentalAnalystAgent=long_term, MarketDynamicsAgent=short_term
+
+  Executive Summary:
+    Overall bearish sentiment with high expected impact. Recommendation: Sell. However, 1 areas of disagreement suggest caution. Primary concern: timing disagreement.
+
+============================================================
+Analyzing: FIN-004 - Regional bank FirstState posts record earnings ami...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: +0.70
+  Impact: moderate
+  Confidence: 85.00%
+
+FundamentalAnalystAgent:
+  Sentiment: +0.70
+  Impact: high
+  Confidence: 85.00%
+
+MarketDynamicsAgent:
+  Sentiment: +0.60
+  Impact: moderate
+  Confidence: 80.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: strong_bullish
+  Market Impact: high
+  Recommendation: strong_buy
+  Confidence: 83.10%
+  Consensus Score: 73.20%
+
+  Executive Summary:
+    Overall strong_bullish sentiment with high expected impact. Recommendation: Strong Buy.
+
+============================================================
+Analyzing: FIN-005 - China tech giant ByteDance reports stellar growth,...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: +0.60
+  Impact: high
+  Confidence: 80.00%
+
+FundamentalAnalystAgent:
+  Sentiment: +0.50
+  Impact: high
+  Confidence: 75.00%
+
+MarketDynamicsAgent:
+  Sentiment: +0.20
+  Impact: high
+  Confidence: 75.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: bullish
+  Market Impact: high
+  Recommendation: buy
+  Confidence: 74.50%
+  Consensus Score: 81.90%
+
+  Executive Summary:
+    Overall bullish sentiment with high expected impact. Recommendation: Buy.
+
+================================================================================
+EVALUATION REPORT
+================================================================================
+============================================================
+MULTI-AGENT SYSTEM EVALUATION REPORT
+============================================================
+Total test cases evaluated: 5
+
+KEY METRICS:
+----------------------------------------
+
+Consensus Alignment:
+  Score: 0.698
+  Average consensus: 69.76% (std: 7.88%)
+
+Decision Confidence:
+  Score: 0.770
+  Average decision confidence: 77.00%. Correlation with consensus: 0.04
+
+Processing Efficiency:
+  Score: 55.557
+  Average processing time: 55.56s (Consider optimization for production)
+
+Disagreement Analysis:
+  Score: 0.400
+  Average 0.4 conflicts per analysis. Most common: timing_disagreement
+
+Sentiment Stability:
+  Score: 0.800
+  Sentiment distribution across 4 categories
+
+Risk Detection Rate:
+  Score: 5.000
+  Average 5.0 risks identified per article. High volatility articles: 0.0 risks
+
+Agent Specialization:
+  Score: 1.000
+  Agents maintain 100.0% unique perspectives. Higher is better - shows true complementary analysis
+
+SYSTEM ASSESSMENT:
+----------------------------------------
+✓ Good consensus - agents generally align
+✓ Strong specialization - agents provide unique perspectives
+⚠️  Limited disagreement - may miss nuanced views
+
+============================================================
+
+✓ Results saved to analysis_results.json
+
+Analysis complete!
+
+
+
+ITERATION - 2
+
+✓ Prompt iterations documented in docs/prompt_iterations.json
+
+================================================================================
+FINANCIAL NEWS IMPACT ANALYZER - MULTI-AGENT SYSTEM
+================================================================================
+
+============================================================
+Analyzing: FIN-001 - Tesla crushes Q3 expectations with record profits,...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: +0.30
+  Impact: high
+  Confidence: 90.00%
+
+FundamentalAnalystAgent:
+  Sentiment: +0.70
+  Impact: high
+  Confidence: 90.00%
+
+MarketDynamicsAgent:
+  Sentiment: +0.20
+  Impact: high
+  Confidence: 90.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: bullish
+  Market Impact: high
+  Recommendation: buy
+  Confidence: 85.80%
+  Consensus Score: 81.00%
+
+  Executive Summary:
+    Overall bullish sentiment with high expected impact. Recommendation: Buy.
+
+============================================================
+Analyzing: FIN-002 - Small biotech CureGen soars on FDA approval, analy...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: -0.50
+  Impact: high
+  Confidence: 90.00%
+
+FundamentalAnalystAgent:
+  Sentiment: -0.30
+  Impact: high
+  Confidence: 80.00%
+
+MarketDynamicsAgent:
+  Sentiment: +0.40
+  Impact: high
+  Confidence: 75.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: neutral
+  Market Impact: high
+  Recommendation: hold
+  Confidence: 69.50%
+  Consensus Score: 75.90%
+
+  Executive Summary:
+    Overall neutral sentiment with high expected impact. Recommendation: Hold.
+
+============================================================
+Analyzing: FIN-003 - Amazon announces 'transformational' AI venture, bu...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: -0.60
+  Impact: very_high
+  Confidence: 90.00%
+
+FundamentalAnalystAgent:
+  Sentiment: -0.40
+  Impact: very_high
+  Confidence: 80.00%
+
+MarketDynamicsAgent:
+  Sentiment: -0.20
+  Impact: high
+  Confidence: 90.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: bearish
+  Market Impact: very_high
+  Recommendation: sell
+  Confidence: 84.40%
+  Consensus Score: 72.00%
+
+  Executive Summary:
+    Overall bearish sentiment with very_high expected impact. Recommendation: Sell.
+
+============================================================
+Analyzing: FIN-004 - Regional bank FirstState posts record earnings ami...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: +0.70
+  Impact: high
+  Confidence: 85.00%
+
+FundamentalAnalystAgent:
+  Sentiment: +0.70
+  Impact: high
+  Confidence: 80.00%
+
+MarketDynamicsAgent:
+  Sentiment: +0.60
+  Impact: moderate
+  Confidence: 75.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: strong_bullish
+  Market Impact: high
+  Recommendation: strong_buy
+  Confidence: 79.80%
+  Consensus Score: 66.60%
+
+  Executive Summary:
+    Overall strong_bullish sentiment with high expected impact. Recommendation: Strong Buy.
+
+============================================================
+Analyzing: FIN-005 - China tech giant ByteDance reports stellar growth,...
+============================================================
+
+SentimentAnalystAgent:
+  Sentiment: +0.60
+  Impact: high
+  Confidence: 85.00%
+
+FundamentalAnalystAgent:
+  Sentiment: +0.65
+  Impact: high
+  Confidence: 85.00%
+
+MarketDynamicsAgent:
+  Sentiment: +0.60
+  Impact: high
+  Confidence: 75.00%
+
+CONSENSUS ANALYSIS:
+  Overall Sentiment: strong_bullish
+  Market Impact: high
+  Recommendation: strong_buy
+  Confidence: 81.60%
+  Consensus Score: 83.30%
+
+  Executive Summary:
+    Overall strong_bullish sentiment with high expected impact. Recommendation: Strong Buy.
+
+================================================================================
+EVALUATION REPORT
+================================================================================
+============================================================
+MULTI-AGENT SYSTEM EVALUATION REPORT
+============================================================
+Total test cases evaluated: 5
+
+KEY METRICS:
+----------------------------------------
+
+Consensus Alignment:
+  Score: 0.758
+  Average consensus: 75.76% (std: 6.04%)
+
+Decision Confidence:
+  Score: 0.802
+  Average decision confidence: 80.22%. Correlation with consensus: 0.15
+
+Processing Efficiency:
+  Score: 59.158
+  Average processing time: 59.16s (Consider optimization for production)
+
+Disagreement Analysis:
+  Score: 0.000
+  Average 0.0 conflicts per analysis. 
+
+Sentiment Stability:
+  Score: 0.800
+  Sentiment distribution across 4 categories
+
+Risk Detection Rate:
+  Score: 5.000
+  Average 5.0 risks identified per article. High volatility articles: 0.0 risks
+
+Agent Specialization:
+  Score: 1.000
+  Agents maintain 100.0% unique perspectives. Higher is better - shows true complementary analysis
+
+SYSTEM ASSESSMENT:
+----------------------------------------
+✓ Good consensus - agents generally align
+✓ Strong specialization - agents provide unique perspectives
+⚠️  Limited disagreement - may miss nuanced views
+
+============================================================
+
+✓ Results saved to analysis_results.json
+
+Analysis complete!

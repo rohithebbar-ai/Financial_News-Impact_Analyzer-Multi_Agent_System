@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-06-22T22:57:36.728119",
+  "metrics": {
+    "consensus_alignment": "metric_name='Consensus Alignment' value=0.7575999999999998 interpretation='Average consensus: 75.76% (std: 6.04%)' details={'mean': np.float64(0.7575999999999998), 'std': np.float64(0.060394039440991185), 'min': 0.666, 'max': 0.833, 'low_consensus_articles': []}",
+    "decision_confidence": "metric_name='Decision Confidence' value=0.8022 interpretation='Average decision confidence: 80.22%. Correlation with consensus: 0.15' details={'mean': np.float64(0.8022), 'correlation_with_consensus': np.float64(0.15118421838020604), 'high_confidence_decisions': 4}",
+    "processing_efficiency": "metric_name='Processing Efficiency' value=59.1581274 interpretation='Average processing time: 59.16s (Consider optimization for production)' details={'mean': np.float64(59.1581274), 'max': 63.321227, 'min': 51.537528}",
+    "disagreement_analysis": "metric_name='Disagreement Analysis' value=0.0 interpretation='Average 0.0 conflicts per analysis. ' details={'total_conflicts': 0, 'conflict_types': {}, 'articles_with_conflicts': 0}",
+    "sentiment_stability": "metric_name='Sentiment Stability' value=0.8 interpretation='Sentiment distribution across 4 categories' details={'sentiment_distribution': {'bullish': ['FIN-001'], 'neutral': ['FIN-002'], 'bearish': ['FIN-003'], 'strong_bullish': ['FIN-004', 'FIN-005']}}",
+    "risk_detection_rate": "metric_name='Risk Detection Rate' value=5.0 interpretation='Average 5.0 risks identified per article. High volatility articles: 0.0 risks' details={'total_risks_identified': 25, 'high_volatility_risk_avg': 0}",
+    "agent_specialization": "metric_name='Agent Specialization' value=1.0 interpretation='Agents maintain 100.0% unique perspectives. Higher is better - shows true complementary analysis' details={'mean_specialization': np.float64(1.0), 'per_article_scores': {'FIN-001': np.float64(1.0), 'FIN-002': np.float64(1.0), 'FIN-003': np.float64(1.0), 'FIN-004': np.float64(1.0), 'FIN-005': np.float64(1.0)}}"
+  },
+  "test_results": [
+    {
+      "article_id": "FIN-001",
+      "consensus_score": 0.81,
+      "recommendation": "buy",
+      "conflicts": 0,
+      "processing_time": 63.125988
+    },
+    {
+      "article_id": "FIN-002",
+      "consensus_score": 0.759,
+      "recommendation": "hold",
+      "conflicts": 0,
+      "processing_time": 51.537528
+    },
+    {
+      "article_id": "FIN-003",
+      "consensus_score": 0.72,
+      "recommendation": "sell",
+      "conflicts": 0,
+      "processing_time": 62.121327
+    },
+    {
+      "article_id": "FIN-004",
+      "consensus_score": 0.666,
+      "recommendation": "strong_buy",
+      "conflicts": 0,
+      "processing_time": 55.684567
+    },
+    {
+      "article_id": "FIN-005",
+      "consensus_score": 0.833,
+      "recommendation": "strong_buy",
+      "conflicts": 0,
+      "processing_time": 63.321227
+    }
+  ]
+}

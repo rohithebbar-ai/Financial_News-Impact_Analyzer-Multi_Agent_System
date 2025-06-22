@@ -1,0 +1,26 @@
+[
+  {
+    "iteration_number": 1,
+    "agent_name": "SentimentAnalystAgent",
+    "prompt_version": "Basic sentiment analysis",
+    "changes_made": "Initial simple prompt asking for positive/negative assessment",
+    "rationale": "Start with baseline to test agent responsiveness",
+    "test_results": "Agents gave similar responses, lacked specialization"
+  },
+  {
+    "iteration_number": 2,
+    "agent_name": "All Agents",
+    "prompt_version": "Added structured output requirements",
+    "changes_made": "Required specific scores, factors, and confidence levels",
+    "rationale": "Need consistent output format for consensus building",
+    "test_results": "Better structure but agents still too similar"
+  },
+  {
+    "iteration_number": 3,
+    "agent_name": "All Agents",
+    "prompt_version": "Emphasized specialized perspectives",
+    "changes_made": "Added detailed role descriptions and focus areas for each agent",
+    "rationale": "Agents need distinct viewpoints to complement each other",
+    "test_results": "Much better differentiation - agents now disagree meaningfully"
+  }
+]
