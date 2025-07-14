@@ -1,7 +1,5 @@
 # 🔥 Financial News Impact Analyzer - Multi-Agent System
 
-**AI Engineer Case Study for Draconic - Option B: Financial News Impact Analyzer**
-
 A sophisticated multi-agent system that analyzes financial news articles using specialized AI agents with distinct perspectives, demonstrating advanced prompt engineering, consensus building, and evaluation frameworks.
 
 ## 🎯 **System Overview**
