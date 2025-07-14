@@ -226,10 +226,6 @@ financial-news-analyzer/
 ## 👨‍💻 **About This Implementation**
 
 **Author:** Rohit Hebbar  
-**Case Study:** AI Engineer Position - Draconic  
-**Development Time:** ~3 hours  
-**AI Tools Used:** Claude (full conversation in ai_chat_history.txt)  
-
 **Philosophy:** Building AI systems that enhance human decision-making through specialized collaboration rather than replacing human judgment with black-box automation.
 
 ---
